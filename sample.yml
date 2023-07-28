@@ -16,5 +16,5 @@
  - name: start nginx
    hosts: web
    become: true
-   role:
-     - sample
+   roles:
+      - sample
