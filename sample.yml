@@ -13,3 +13,8 @@
          state: started
 
 
+ - name: start nginx
+   hosts: web
+   become: true
+   role:
+     - sample
