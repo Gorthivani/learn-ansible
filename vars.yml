@@ -6,3 +6,11 @@
        - name: print variable
          ansible.builtin.debug:
            msg: URL = {{URL}}
+
+       - name: print variable
+         ansible.builtin.debug:
+           msg: URL = {{URL}}
+         vars:
+           msg: tasks.goggle.com
+
+
